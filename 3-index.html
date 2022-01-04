@@ -153,7 +153,6 @@
           </header>
           <form action="#" method="POST">
             <fieldset>
-              <legend class="visually-hidden">Your personal information</legend>
               <div class="form-group col-1-2">
                 <label for="your-first-name">Name</label>
                 <div class="form-field">
@@ -170,20 +169,16 @@
                   <span class="form-field-container">
                     <input type="email" name="your-email" id="your-email"
                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="55" autocomplete="on" accesskey="e" required>
-                    <i class="form-field-icon">
-                    </i>
+                    <i class="form-field-icon"></i>
                   </span>
                 </div>
               </div>
-            </fieldset>
-            <fieldset>
               <div class="form-group col-2-3">
                 <label for="your-comment">Your message</label>
                 <div class="form-field">
                   <span class="form-field-container">
-                    <textarea name="your-comment" id="your-comment" placeholder="Write your comment here" minlength="10"
-                      accesskey="c" required cols="30" rows="6">
-                                  </textarea>
+                    <input type="text" name="Your message" id="your-message" maxlength="500" accesskey="f" required>
+                    <i class="form-field-icon"></i>
                   </span>
                 </div>
               </div>

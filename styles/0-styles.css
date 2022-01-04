@@ -228,7 +228,7 @@ html {
 	top: 0px;
 	padding: var(--header-padding);
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .header .container {
@@ -314,7 +314,7 @@ html {
 }
 
 .section-hero .section-inner {
-	height: 500px;
+	height: 400px;
 	width: 60vw;
 
 }
@@ -472,4 +472,44 @@ html {
 	.header-logo {
 		flex-basis: 79%;
 	}
+}
+
+
+/* Section What we do
+      ============================= */
+
+.section-wwd {
+	display: flexbox;
+	flex-direction: column;
+	width: 60%;
+	height: 313px;
+	padding: 37px;
+	margin-right: 20vw;
+	margin-left: 20vw;
+	margin-top: 240px;
+	background-color: red;
+}
+
+.section-wwd .section-title {
+	font-size: var(--font-size-large);
+	font-weight: bold;
+	color: var(--color-white);
+	font-family: var(--font-title);
+	text-align: center;
+}
+
+.section-wwd .section-inner {
+	height: 500px;
+	width: 60vw;
+
+}
+
+.section-wwd .section-inner p {
+	display: flex;
+	justify-content: center;
+	color: var(--color-white);
+	font-family: var(--font-title);
+	text-align: center;
+	padding-left: 70px;
+	padding-right: 70px;
 }
