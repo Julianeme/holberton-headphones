@@ -11,9 +11,6 @@ The objective is simple: Have a fully functional web page that looks the same as
 Feel free to download and run the file from this repo:
 https://github.com/Julianeme/holberton-headphones.git
 
-```bash
-pip install foobar
-```
 
 ## Usage
 
